@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+/*Tipografia: font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif;*/
+
+*{font-family: 'Inter', sans-serif; font-size: 16px;}
+
+body{background-color: hsl(233, 47%, 7%);}
+
+section{display: flex;margin: auto;width: 1270px; margin-top: 220px;justify-content: space-between;}
+.div1{padding: 30px 60px;width: 570px;background-color: hsl(244, 38%, 16%);}
+h1{font-size: 3rem;color: white;font-weight: 700;}
+strong{font-size: 3rem;color: hsl(277, 64%, 61%);}
+p{font-family: 'Lexend Deca', sans-serif;font-size: 1.2rem;font-weight: 400;color: hsla(0, 0%, 100%, 0.75);margin-top: 20px;margin-bottom: 20px;display: block;padding: 0px 80px 40px 0px;}
+.date{display: inline-flex;flex-direction: column;width: 60px;align-items: start;padding: 0;margin-right: 120px;margin-bottom: 40px;line-height: 10px;}
+h2{font-size: 1.8rem;color: white;text-align: left;}
+span{color: hsla(0, 0%, 100%, 0.75);text-align: left;text-transform: uppercase;font-size: 1rem;font-weight: 400;}
+.img{background-image: url(../img/image-header-desktop.jpg);background-size: cover;background-repeat: no-repeat;width: 48%;padding: 0;margin: 0;height: auto;position: relative;}
+.overlay {position: absolute;top: 0; left: 0; width: 100%; height: 100%;background-color: hsl(277, 91%, 30%); opacity: 0.5;}
+
+@media screen and (max-width: 500px) {
+    html, body{width: 100%;overflow-x: hidden;}
+    h1{font-size: 2.4rem;}
+    strong{font-size: 2.4rem;}
+    p{font-size: 1.1rem;padding: 0px 40px 40px;}
+    section{flex-direction: column-reverse;text-align: center;align-items: center;justify-content: center;width: 100%;height: auto;margin: 0;padding: 0;}
+    .div1, .capa1{width: 400px;}
+    .img{height: 400px;width: 110%;margin: 0;padding: 0;}
+    .date{width: 100%;text-align: center;align-items: center;justify-content: center;}
+    .dates{width: 100px;display: flex;flex-direction: column;align-items: right;margin: auto;justify-content: center;}
+}
+
+
